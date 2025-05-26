@@ -1,7 +1,5 @@
 # Unilime - Test Task
 
-[Project Demo](https://dimarogkov.github.io/unilime/overview)
-
 This **React application** provides a simple, interactive dashboard to display and manage mock data across three key pages. It is designed to be a reusable component for building user interfaces that handle data visualization, user management, and settings configuration.
 
 ## Pages Overview
