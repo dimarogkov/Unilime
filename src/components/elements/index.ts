@@ -1,3 +1,4 @@
 import { HeaderLink } from './HeaderLink';
+import { UserTableItem } from './UserTableItem';
 
-export { HeaderLink };
+export { HeaderLink, UserTableItem };

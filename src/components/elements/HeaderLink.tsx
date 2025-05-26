@@ -13,7 +13,7 @@ export const HeaderLink: FC<Props> = ({ link }) => {
         <NavLink
             to={href}
             className={({ isActive }) =>
-                `header-link relative flex items-center justify-center h-full font-medium text-base px-1 sm:px-4 transition-colors duration-200 ${
+                `header-link relative flex items-center justify-center h-full font-medium text-base sm:px-4 transition-colors duration-200 ${
                     isActive ? 'active text-lime-500' : ''
                 }`
             }
