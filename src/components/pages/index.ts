@@ -1,6 +1,6 @@
-import { UsersPage } from './UsersPage';
-import { SettingsPage } from './SettingsPage';
 import { NotFoundPage } from './NotFoundPage';
-import { HomePage } from './HomePage';
+import { OverviewPage } from './OverviewPage';
+import { SettingsPage } from './SettingsPage';
+import { UsersPage } from './UsersPage';
 
-export { HomePage, NotFoundPage, SettingsPage, UsersPage };
+export { NotFoundPage, OverviewPage, SettingsPage, UsersPage };

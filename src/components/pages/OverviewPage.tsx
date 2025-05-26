@@ -2,7 +2,7 @@ import { Activities, Goals } from '../blocks';
 import { Card, Title } from '../ui';
 import { ChartNoAxesCombined, Goal } from 'lucide-react';
 
-export const HomePage = () => {
+export const OverviewPage = () => {
     return (
         <section className='relative w-full'>
             <Title className='mb-7 last:mb-0'>Home Page</Title>
