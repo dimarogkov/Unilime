@@ -1,3 +1,9 @@
+import { Title } from '../ui';
+
 export const SettingsPage = () => {
-    return <h1>Settings Page</h1>;
+    return (
+        <>
+            <Title text='Settings Page' className='mb-7 lg:mb-10 last:mb-0' />
+        </>
+    );
 };

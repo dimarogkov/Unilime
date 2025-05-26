@@ -1,9 +1,10 @@
 import { UsersTable } from '../blocks';
+import { Title } from '../ui';
 
 export const UsersPage = () => {
     return (
         <section className='relative w-full'>
-            <h1 className='font-semibold text-2xl mb-7 lg:mb-10 last:mb-0'>Users Page</h1>
+            <Title text='Users Page' className='mb-7 lg:mb-10 last:mb-0' />
             <UsersTable />
         </section>
     );
