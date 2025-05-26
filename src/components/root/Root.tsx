@@ -5,7 +5,7 @@ import { App } from '../../App';
 
 export const Root = () => {
     return (
-        <Router basename='/unilime'>
+        <Router basename='/unilime/overview'>
             <Routes>
                 <Route path='/' element={<Navigate to={PATHS.OVERVIEW} replace />} />
 
