@@ -4,7 +4,7 @@ import { Title } from '../ui';
 export const UsersPage = () => {
     return (
         <section className='relative w-full'>
-            <Title text='Users Page' className='mb-7 lg:mb-10 last:mb-0' />
+            <Title className='mb-7 last:mb-0'>Users Page</Title>
             <UsersTable />
         </section>
     );

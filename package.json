@@ -11,12 +11,15 @@
         "preview": "vite preview"
     },
     "dependencies": {
+        "@hookform/resolvers": "^3.6.0",
         "@tailwindcss/vite": "^4.1.7",
         "classnames": "^2.5.1",
         "lucide-react": "^0.511.0",
         "react": "^19.1.0",
         "react-dom": "^19.1.0",
+        "react-hook-form": "^7.51.5",
         "react-router-dom": "^6.23.1",
+        "yup": "^1.4.0",
         "tailwindcss": "^4.1.7"
     },
     "devDependencies": {

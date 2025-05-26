@@ -1,10 +1,9 @@
-import type { FC } from 'react';
+import type { FC, LabelHTMLAttributes } from 'react';
 
-type Props = {
-    text: string;
+interface Props extends LabelHTMLAttributes<HTMLLabelElement> {
     className?: string;
-};
+}
 
-export const Label: FC<Props> = ({ text, className = '' }) => {
-    return <span className={`relative rounded px-2.5 py-1.5 text-lime-400 bg-[#191919] ${className}`}>{text}</span>;
+export const Label: FC<Props> = ({ className = '', ...props }) => {
+    return <label {...props} className={`relative block w-full text-base ${className}`} />;
 };

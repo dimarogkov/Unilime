@@ -1,10 +1,9 @@
-import type { FC } from 'react';
+import type { FC, HTMLAttributes } from 'react';
 
-type Props = {
-    text: string;
+interface Props extends HTMLAttributes<HTMLHeadingElement> {
     className?: string;
-};
+}
 
-export const Title: FC<Props> = ({ text, className = '' }) => {
-    return <h1 className={`relative font-semibold text-2xl ${className}`}>{text}</h1>;
+export const Title: FC<Props> = ({ className = '', ...props }) => {
+    return <h1 {...props} className={`relative font-semibold text-2xl ${className}`} />;
 };
