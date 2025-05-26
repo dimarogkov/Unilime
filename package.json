@@ -1,4 +1,5 @@
 {
+    "homepage": ".",
     "name": "unilime",
     "private": true,
     "version": "0.0.0",
@@ -10,9 +11,11 @@
         "preview": "vite preview"
     },
     "dependencies": {
+        "classnames": "^2.5.1",
         "@tailwindcss/vite": "^4.1.7",
         "react": "^19.1.0",
         "react-dom": "^19.1.0",
+        "react-router-dom": "^6.23.1",
         "tailwindcss": "^4.1.7"
     },
     "devDependencies": {
