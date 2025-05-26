@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { USERS } from '../../variables/users';
+import { USERS } from '../../variables';
 import { UserTableItem } from '../elements';
 import { ArrowDownAZ, ArrowUpAZ } from 'lucide-react';
 
@@ -21,7 +21,7 @@ export const UsersTable = () => {
 
     return (
         <div className='relative w-full overflow-x-auto'>
-            <table className='min-w-full border border-gray-100'>
+            <table className='min-w-full rounded border border-gray-200'>
                 <thead className='w-full bg-gray-100'>
                     <tr>
                         <th
